@@ -4,15 +4,66 @@ body{
 
 a{
     text-decoration: none;
+    color: black;
 }
-
 nav a{
     size:14px;
     color:black;
     padding: 5px;
+
 }
 nav a:hover{
     background-color: black;
     color: white;
     padding: 5px;
 }
+.altresProyectes{
+    background-color: rgb(224, 200, 170);
+}
+/*ol:first-child{
+    background-color: #f0f0f0;
+}
+ol:last-child{
+    background-color: aqua;
+}
+    */
+
+#red{
+    color: red;
+}
+ol:before{
+    color: blueviolet;
+}
+
+/*Fuente 1*/
+/* <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
+*/
+.orbitron-uniquifier {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+/*Fuente 2*/
+/*
+// <weight>: Use a value from 300 to 700
+// <uniquifier>: Use a unique and descriptive class name
+*/
+.space-groteskuniquifier {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/*
+Definició d'estils pels elements d'una llista amb :first-child, :last-child
+
+Una geraquia combinada tipus id > element (exemple: #base > li)
+
+Pseudoelements ::before i ::after
+*/
+

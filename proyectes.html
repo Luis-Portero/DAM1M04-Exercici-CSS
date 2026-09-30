@@ -5,6 +5,17 @@
         <link rel="stylesheet" href="styles.css">
         <title>Proyectos</title>
     </head>
+    <style>
+        .pProyect1::before{
+            content:"📌 ";
+            font-style: oblique;
+        }
+        .listOtherProyects::after{
+            content: " ✔"; 
+            color: green;
+
+        }
+    </style>
     <body>
         <nav>
             &nbsp;<a href="index.html">Inici</a>&nbsp; |
@@ -24,7 +35,7 @@
         <img src="images/ProyectesProyecto1.png" width="400">
         
         <!--Párrafo(s) explicando el proyecto 1-->
-        <p>Aquest es un proyecte que consisteix en fer un servidor de un joc molt popular, per poder accedir en qualsevol dispositiu</p>
+        <p class="pProyect1">Aquest es un proyecte que consisteix en fer un servidor de un joc molt popular, per poder accedir en qualsevol dispositiu</p>
         <hr/>
         
         <!--Subtítulo 2-->
@@ -35,12 +46,14 @@
         <hr/>
         
         <!--Lista desordenada con algunos más proyectos-->
-        <h2>Altres proyectes</h2>
-        <ul>
-            <li>Aplicació de gestió de tasques</li>
-            <li>Joc desenvolupat amb Java</li>
-            <li>Pàgina web personal</li>
-        </ul>
+        <div class="altresProyectes">
+            <h2>Altres proyectes</h2>
+            <ul >
+                <li>Aplicació de gestió de tasques</li>
+                <li class="listOtherProyects">Joc desenvolupat amb Java</li>
+                <li class="listOtherProyects">Pàgina web personal</li>
+            </ul>
+        </div>
 
         <hr/>
         <h2>Com faig per desenvolupar un projecte</h2>

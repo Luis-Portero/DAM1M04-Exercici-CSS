@@ -3,11 +3,28 @@
     <head>
         <!--codificación-->
         <meta charset="UTF-8">
-    
+        <!--relacionar en css-->
         <link rel="stylesheet" href="styles.css">
+
+        <!--Enlace fuente 1-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+
         <!--El título-->
         <title>Inici</title>
     </head>
+    <style>
+        li:first-child{
+            background-color: red;
+            font-weight: bold;
+        }
+        li:last-child{
+            background-color: green;
+            font-style: italic;
+        }
+    </style>
     <body>
         
         <!--La barra de navegación-->
@@ -28,10 +45,10 @@
         <img src="images/indexInici.jpeg" width="200">
         
         <!--Título-->
-        <h1>Luis Portero</h1>
+        <h1 class="orbitron-uniquifier">Luis Portero</h1>
         
         <!--Subtítulo-->
-        <h2>Estudiant de Desenvolupament d'Aplicacions Multiplataforma</h2>
+        <h2 id="red">Estudiant de Desenvolupament d'Aplicacions Multiplataforma</h2>
         
         <!--Párrafo-->
         <p>Sóc estudiant d'informàtica i estic interessat en el desenvolupament d'aplicacions, la programació i les noves tecnologies.</p>
